@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанные с этой сборкой.
-[assembly: AssemblyTitle("hw2")]
+[assembly: AssemblyTitle("hw-2")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("hw2")]
+[assembly: AssemblyProduct("hw-2")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID представляет идентификатор typelib, если этот проект доступен из модели COM
-[assembly: Guid("da0f1bd4-34d7-4458-97a6-1cd5fb4c6a23")]
+[assembly: Guid("d93842b4-a58f-46f5-bf8c-016b1b53b5eb")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //
