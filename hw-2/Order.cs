@@ -1,6 +1,6 @@
 ﻿namespace hw_2
 {
-    class Order
+    public class Order
     {
         int orderId;
         string Name;
