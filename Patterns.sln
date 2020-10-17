@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns", "Patterns\Patter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hw1", "hw1\hw1.csproj", "{F4321CCF-DC72-4B6D-85FB-340E61E14FAE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hw-2", "hw-2\hw-2.csproj", "{D93842B4-A58F-46F5-BF8C-016B1B53B5EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F4321CCF-DC72-4B6D-85FB-340E61E14FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4321CCF-DC72-4B6D-85FB-340E61E14FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4321CCF-DC72-4B6D-85FB-340E61E14FAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D93842B4-A58F-46F5-BF8C-016B1B53B5EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D93842B4-A58F-46F5-BF8C-016B1B53B5EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D93842B4-A58F-46F5-BF8C-016B1B53B5EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D93842B4-A58F-46F5-BF8C-016B1B53B5EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
