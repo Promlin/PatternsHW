@@ -8,6 +8,9 @@ namespace hw4
 
     class Program
     {
+        static int x = 0;
+        static object locker = new object();
+
         static void MainPrintMethod()
         {
             for (int i = 0; i < 15; i++)
@@ -38,6 +41,23 @@ namespace hw4
             var thread2 = new Thread(newTask);
             thread2.Start();
 
+
+            Console.ReadLine();
+        }
+
+        //Оператор lock 
+        public static void Count()
+        {
+            lock (locker)
+            {
+                x = 1;
+                for (int i = 1; i < 9; i++)
+                {
+                    Console.WriteLine("{0}: {1}", Thread.CurrentThread.Name, x);
+                    x++;
+                    Thread.Sleep(100);
+                }
+            }
         }
     }
 }
