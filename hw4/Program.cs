@@ -20,6 +20,16 @@ namespace hw4
             var thread = new Thread(currentTask);
             thread.Start();
 
+            //Получение статического метода из одиночки
+            Singleton.printStringInSingleton();
+            Console.WriteLine("Finish of Singleton's method work");  //Завершение работы метода из одиночки
+
+
+            //Создание еще одного потока c методом из одиночки
+            ThreadStart newTask = new ThreadStart(Singleton.printStringInSingleton);
+            var thread2 = new Thread(newTask);
+            thread2.Start();
+
         }
 
         static void MainPrintMethod()

@@ -21,7 +21,7 @@ namespace hw4
             return _instance;
         }
 
-        public static void printString()
+        public static void printStringInSingleton()
         {
             for (int i = 0; i < 15; i++)
             {
