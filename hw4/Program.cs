@@ -1,14 +1,22 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 
 namespace hw4
 {
+    //Оператор lock определяет блок кода, внутри которого весь код блокируется и становится недоступным
+    //для других потоков до завершения работы текущего потока
+
     class Program
     {
+        static void MainPrintMethod()
+        {
+            for (int i = 0; i < 15; i++)
+            {
+                Thread.Sleep(20);
+                Console.Write("Main i " + i);
+            }
+        }
+
         static void Main(string[] args)
         {
             MainPrintMethod();
@@ -30,15 +38,6 @@ namespace hw4
             var thread2 = new Thread(newTask);
             thread2.Start();
 
-        }
-
-        static void MainPrintMethod()
-        {
-            for (int i = 0; i < 15; i++)
-            {
-                Thread.Sleep(20);
-                Console.Write("Main i " + i);
-            }
         }
     }
 }
