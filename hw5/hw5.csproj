@@ -43,11 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CalculatingClass.cs" />
-    <Compile Include="ICalculating.cs" />
+    <Compile Include="task1\DrawCircle.cs" />
+    <Compile Include="task1\DrawSquare.cs" />
+    <Compile Include="task1\FigureFactory.cs" />
+    <Compile Include="task1\IDrawFigure.cs" />
+    <Compile Include="task2\CalculatingClass.cs" />
+    <Compile Include="task2\ICalculating.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Proxy.cs" />
+    <Compile Include="task2\Proxy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
