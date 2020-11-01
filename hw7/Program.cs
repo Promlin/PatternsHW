@@ -17,7 +17,8 @@ namespace hw7
             Order e = new Order();
 
             ShippingCostCalculator shippingCostCalculator = new ShippingCostCalculator();
-            var result = shippingCostCalculator.Calculate(e, emsStrategy);
+            //var result = shippingCostCalculator.Calculate(e, emsStrategy);
+            var result = shippingCostCalculator.Calculate(e);
             Console.WriteLine(result);
         }
     }
